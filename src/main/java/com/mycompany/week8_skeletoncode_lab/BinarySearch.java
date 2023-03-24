@@ -29,5 +29,14 @@ public class BinarySearch {
     }
     //ToDo 2: Call the above method and test the algorithm  
     // provide time and space analysis 
+    
+    if (index == Integer.MAX_VALUE) {
+        System.out.println("Key not found");
+    } else {
+        System.out.println("Key found at index " + index);
+    }
+    
+    // The time complexity of binary search is O(log n)
+    The space complexity is O(1)
 
 }
